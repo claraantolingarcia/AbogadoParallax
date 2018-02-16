@@ -245,7 +245,7 @@ blockquote:before {content:'“'; position:absolute; left:15px; top:13px; font-s
 /*-----------------------------------------------------------------------------------*/
 header {
 	position:relative;
-	height: 80p;
+	height: 80px;
 	background-color:#fff;
 }
 
@@ -591,6 +591,19 @@ header {
 /*-----------------------------------------------------------------------------------*/
 #projects {padding-top:47px;}
 
+.work-grid {
+	font-family: 'Brandon_light';
+	font-size: 17px;
+	margin: 5%;
+	margin-top: 0;
+	padding-left: 6%;
+}
+
+.project-text {
+	font-family: 'Brandon_light';
+	font-size: 17px;
+}
+
 .work_item {
 	position:relative;
 	transition: all 0.3s ease-in-out; 
@@ -838,7 +851,7 @@ ul.project_info li span {color:#979797;}
     padding-top: 1%;
 }
 
-.grid {
+.team-grid {
     margin: 5%;
     margin-top: 0;
     padding-left: 4%;
@@ -875,11 +888,14 @@ ul.project_info li span {color:#979797;}
 /*-----------------------------------------------------------------------------------*/
 #news {padding:75px 0 50px;}
 
-.testimonials{margin-bottom:77px;}
+.testimonials{
+	margin-bottom:77px;
+}
 .testim_content {
+	font-family: 'Brandon_light';
 	font-weight:300;
 	line-height:38px;
-	font-size:26px;
+	font-size:20px;
 	color:#333;
 }
 .testim_author {
@@ -891,6 +907,11 @@ ul.project_info li span {color:#979797;}
 .testim_author b {
 	font-weight:500;
 	color:#333;
+}
+
+.testim_title {
+	font-size: 26px;
+	margin-bottom:40px;
 }
 
 
