@@ -20,7 +20,6 @@ footer ::-moz-selection {background: #fff; color:#000;}
 .cleancode_block ::-moz-selection {background: #fff; color:#000;}
 
 
-
 body {
 	overflow-x:hidden;
 	position:relative;
@@ -159,6 +158,15 @@ h6 {margin:0 0 15px; line-height:20px; font-size:12px;}
 .color_yellow {color:#fec400;}
 
 .color_bg {background:#30a67c;}
+
+.center-area {
+	text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
 
 /* __________ blockquote __________ */
 blockquote {position:relative; margin: 0 0 13px; padding:0 0 0 47px; border:0; font-style:italic; font-size:16px; color:#979797;}
@@ -589,19 +597,37 @@ header {
 /*-----------------------------------------------------------------------------------*/
 /*	FEATURED WORKS
 /*-----------------------------------------------------------------------------------*/
-#projects {padding-top:47px;}
+
+.project-title {
+	background-image:url(../images/work-bg.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 450px;
+	margin-right: 0; margin-left: 0;
+	padding: 0;
+}
+
+.work-text {
+	color: white;
+	font-size: 30px;
+	font-family: 'Brandon_light';
+	text-align: center;
+}
 
 .work-grid {
 	font-family: 'Brandon_light';
 	font-size: 17px;
-	margin: 5%;
 	margin-top: 0;
-	padding-left: 6%;
+	padding-left: 15%;
+	padding-top: 2%;
 }
 
 .project-text {
 	font-family: 'Brandon_light';
 	font-size: 17px;
+	margin: 0;
+	padding: 0;
 }
 
 .work_item {
@@ -609,6 +635,15 @@ header {
 	transition: all 0.3s ease-in-out; 
 	-webkit-transition: all 0.3s ease-in-out;
 }
+
+.work-info {
+	background-image:url(../images/line.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 270px;
+}
+
 .owl-item:hover .work_item {
 	transform:scale(0.95);
 	-o-transform:scale(0.95);
@@ -877,11 +912,6 @@ ul.project_info li span {color:#979797;}
     color: #2a2929;
 }
 
-.align-text {
-    padding-top: 4%;
-    text-align: center;
-    text-align: center;
-}
 
 /*-----------------------------------------------------------------------------------*/
 /*	TESTIMONIALS
