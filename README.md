@@ -1,17 +1,11 @@
 # AbogadoParallax
 
-
-HOME
-v añadir el logo a la izquierda del menu
-· en la versión movil cambiar el boton de menu
-
 EQUIPO:
-· poner el "Fast abogados" torcido (si no lo consigo me lo tuerces tu pasandome una imagen jeje)
+· poner el "Fast abogados" torcido
 · centrar la primera cuadricula que pone "abogados y equipo administrativo"
 · en la versión movil hacer que el cuadrado llegue al final de la pantalla
 
 AREAS DE TRABAJO
-· juntar bien las dos imagenes
 · poner la linea curva de cada titulito
 
 NOTICIAS

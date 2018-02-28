@@ -134,9 +134,7 @@
 						<p class="paragraph">En el despacho asesoramos a personas y empresas, basando nuestro trabajo en la alta dedicación y atención personalizada. Nuestro prinicpal objetivo es aportar soluciones eficacez, expertas y prácticas a las situaciones planteadas por nuestros clientes, a través del esfuerzo y el entusiasmo que nos caracteriza.</p> 
 						<p class="paragraph">El equipo de TSJURIDICO trabaja para ofrecer los mejores servicios jurídicos, con una política de costes eficaz y transparente, poniendo a disposición todos los medios necesarios para la plena satisfacción de todas las personas y empresas que confían en nostros.</p>
 						<p class="paragraph">Ubicados en la zona del distrito financiero y de negocios AZCA de Madrid, prestamos nuestros servicios alrededor de todo el territorio nacional, contando con una cartera de clientes procedentes de todos los sectores económicos. </p>
-						<div class="signature-text">
-							<p>Fast abogados</p>
-						</div>
+						<div class="signature-text rotate">Fast abogados</div>
 					</div>
 	
 					<div class="team-grid">
@@ -292,10 +290,11 @@
 					<div class="span9 contact_form">
 						<div id="note"></div>
 						<div id="fields">
-							<form id="contact-form-face" class="clearfix" action="#">
-								<input type="text" name="name" value="Name" onFocus="if (this.value == 'Name') this.value = '';" onBlur="if (this.value == '') this.value = 'Name';" />
-								<textarea name="message" onFocus="if (this.value == 'Message') this.value = '';" onBlur="if (this.value == '') this.value = 'Message';">Mensaje</textarea>
-								<input class="contact_btn" type="submit" value="Enviar" />
+							<form id="contact-form-face" method=post action="php/send-form.php">
+								<input type="text" name="name" value="Nombre" onFocus="if (this.value == 'Nombre') this.value = '';" onBlur="if (this.value == '') this.value = 'Nombre';" />
+								<input type="text" name="email" value="Correo" onFocus="if (this.value == 'Correo') this.value = '';" onBlur="if (this.value == '') this.value = 'Correo';" />
+								<textarea name="message" value="Mensaje" onFocus="if (this.value == 'Mensaje') this.value = '';" onBlur="if (this.value == '') this.value = 'Mensaje';">Mensaje</textarea>
+								<input class="contact_btn" type="submit" value="Enviar" onclick="javascript:send()"/>
 							</form>
 						</div>
 					</div><!-- //CONTACT FORM -->

@@ -3,6 +3,16 @@
     src: url('styles/Brandon/Brandon_light.otf');
 }
 
+@font-face {
+    font-family: 'Jellyka';
+    src: url('styles/JellykaFont/jellyka.ttf');
+}
+
+@font-face {
+    font-family: 'Shamery';
+    src: url('styles/ShameryFont/shamery.ttf');
+}
+
 
 /*-----------------------------------------------------------------------------------*/
 /*	GENERAL STYLING
@@ -881,8 +891,22 @@ ul.project_info li span {color:#979797;}
     align-content: center;
     color: #2a2929;
     justify-content: center;
-    align-content: center;
     padding-top: 1%;
+}
+
+.signature-text {
+	font-family: 'Jellyka';
+	text-align: right;
+	font-size: 30px;
+}
+
+.rotate {
+	text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .team-grid {
