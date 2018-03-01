@@ -904,7 +904,7 @@ ul.project_info li span {color:#979797;}
 }
 
 .signature-img {
-	height: 25px;
+	height: 35px;
 	margin: 0% 0% 2% 85%;
 }
 
@@ -917,11 +917,15 @@ ul.project_info li span {color:#979797;}
 .square {
     font-family: 'Brandon_light';
     font-size: 17px;
-    padding: 2%;
+	padding: 2%;
     left: 0;
     top: 0;
     height: 300px;
     float: left;
+}
+
+.first-square {
+	padding-top: 8%;
 }
 
 .square-black {
