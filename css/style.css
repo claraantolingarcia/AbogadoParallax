@@ -929,6 +929,10 @@ ul.project_info li span {color:#979797;}
 	padding-top: 8%;
 }
 
+.hidden-text {
+	color: #2a2929;
+}
+
 .square-black {
     background: #2a2929;
     color: #ecebeb;
@@ -2110,10 +2114,9 @@ input[type="color"]:focus {
 		margin: 0% 0% 2% 60%;
 	}
 
-	.square {
-		padding: 8%;
+	.first-square {
+		padding-top: 20%;
 	}
-
 	
     .work-info {
 		font-size: 15px;
