@@ -171,8 +171,9 @@ h6 {margin:0 0 15px; line-height:20px; font-size:12px;}
 
 .center-area {
 	text-align: center;
-    position: relative;
-    top: 50%;
+	position: relative;
+	top: 50%;
+	padding: 0% 10% 7% 10%;
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -657,6 +658,8 @@ header {
 	background-size: cover;
 	width: 100%;
 	height: 270px;
+	font-size: 22px;
+	line-height: 24px;
 }
 
 .owl-item:hover .work_item {
