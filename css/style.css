@@ -614,6 +614,7 @@ header {
 	height: 450px;
 	margin-right: 0; margin-left: 0;
 	padding: 0;
+	line-height: 24px;
 }
 
 .work-text {
@@ -1699,7 +1700,7 @@ input[type="color"]:focus {
 
 
 /*-----------------------------------------------------------------------------------*/
-/*	RESPONSIVE STYLES
+/*									RESPONSIVE STYLES
 /*-----------------------------------------------------------------------------------*/
 
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
@@ -1712,6 +1713,10 @@ input[type="color"]:focus {
 
 	
 }
+
+/*--------------------------------------------*/
+/*					TABLET GRANDE
+/*--------------------------------------------*/
 
 @media (min-width: 992px) and (max-width: 1199px) {
 	.parallax, .cleancode_block, #team {background-attachment:scroll !important; background-size:100% auto !important; -webkit-background-size:100% auto !important;}
@@ -1783,6 +1788,10 @@ input[type="color"]:focus {
 	
 	
 }
+
+/*--------------------------------------------*/
+/*					TABLET
+/*--------------------------------------------*/
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.logo a {font-size:22px;}
@@ -1876,8 +1885,18 @@ input[type="color"]:focus {
 	
 	.respond_clear {clear:both; height:0; font-size:0;}
 
+/* --- TEAM --- */
+
+	.signature-img {
+		height: 25px;
+		margin: 0% 0% 2% 80%;
+	}
 
 }
+
+/*--------------------------------------------*/
+/*				MEGA MOBILE
+/*--------------------------------------------*/
 
 @media (max-width: 767px) {
 	.container {padding-left:15px; padding-right:15px;}
@@ -2017,6 +2036,10 @@ input[type="color"]:focus {
 	
 }
 
+/*--------------------------------------------*/
+/*				NORMAL MOBILE
+/*--------------------------------------------*/
+
 @media (max-width: 479px) {
 
 	#search-form {display:none;}
@@ -2077,6 +2100,24 @@ input[type="color"]:focus {
 	.col-ss-3 {width: 25%;}
 	.col-ss-2 {width: 16.666666666666664%;}
 	.col-ss-1 {width: 8.333333333333332%;}
+
+
+
+/* --- TEAM --- */
+
+	.signature-img {
+		height: 25px;
+		margin: 0% 0% 2% 60%;
+	}
+
+	.square {
+		padding: 8%;
+	}
+
+	
+    .work-info {
+		font-size: 15px;
+	}
 
 }
 
