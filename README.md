@@ -1,7 +1,6 @@
 # AbogadoParallax
 
 EQUIPO:
-· poner el "Fast abogados" torcido
 · centrar la primera cuadricula que pone "abogados y equipo administrativo"
 · en la versión movil hacer que el cuadrado llegue al final de la pantalla
 

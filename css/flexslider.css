@@ -279,7 +279,7 @@ html[xmlns] .slides {display: block;}
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 }
-.top_slider .slide1 .flex_caption1 .title4 {margin-bottom:15px; width:680px; font-weight:300; line-height:34px; font-size:26px; color: white;}
+.top_slider .slide1 .flex_caption1 .title4{ margin-left:150px; margin-bottom:15px; width:680px; font-weight:300; line-height:34px; font-size:26px; color: white;}
 
 
 
