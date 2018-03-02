@@ -311,11 +311,11 @@
 					<div class="span9 contact_form">
 						<div id="note"></div>
 						<div id="fields">
-							<form id="contact-form-face" method=post action="php/send-form.php">
+							<form id="contact-form-face" name="contact-form" method="post" action="php/send-form.php">
 								<input type="text" name="name" value="Nombre" onFocus="if (this.value == 'Nombre') this.value = '';" onBlur="if (this.value == '') this.value = 'Nombre';" />
-								<input type="text" name="email" value="Correo" onFocus="if (this.value == 'Correo') this.value = '';" onBlur="if (this.value == '') this.value = 'Correo';" />
+								<input type="text" name="email-from" value="Correo" onFocus="if (this.value == 'Correo') this.value = '';" onBlur="if (this.value == '') this.value = 'Correo';" />
 								<textarea name="message" value="Mensaje" onFocus="if (this.value == 'Mensaje') this.value = '';" onBlur="if (this.value == '') this.value = 'Mensaje';">Mensaje</textarea>
-								<input class="contact_btn" type="submit" value="Enviar" onclick="javascript:send()"/>
+								<input class="contact_btn" type="submit" value="Enviar"/>
 							</form>
 						</div>
 					</div><!-- //CONTACT FORM -->

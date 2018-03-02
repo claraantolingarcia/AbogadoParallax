@@ -1,22 +1,34 @@
-<?php 
-error_reporting(0); 
-$name = $_POST['nombre']; 
-$email= $_POST['email'];
-$message=$_POST['message']; 
-$header = 'From: ' . $email .; 
-$header .= "X-Mailer: PHP/" . phpversion() . " \r\n"; 
-$header .= "Mime-Version: 1.0 \r\n"; 
-$header .= "Content-Type: text/plain"; 
+<?php
+    if(isset($_POST['email-from'])) {
 
-$mensaje = "Este mensaje fue enviado por " . $nombre . " \r\n"; 
-$mensaje .= "Su e-mail es: " . $mail . " \r\n"; 
-$mensaje .="dice".$_POST['message'] . " \r\n"; 
+        // Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
+        $email_to = "clara.antolin.garcia@gmail.com";
+        $email_subject = "Contacto desde el sitio web";
 
-$to = 'AKI PONES TU CORREO; 
-$asunto = 'AKI LO Q KIERAS'; 
+        $email_from = $_POST['email-from'];
 
-mail($to, $asunto, utf8_decode($mensaje), $header); 
+        // Aquí se deberían validar los datos ingresados por el usuario
+        if(!isset($_POST['name']) ||
+            !isset($_POST['name']) ||
+            !isset($_POST['message'])) {
 
-echo 'mensaje enviado correctamente'; 
+            echo "<b>Ocurrió un error y el formulario no ha sido enviado. </b><br />";
+            echo "Por favor, vuelva atrás y verifique la información ingresada<br />";
+            die();
+        }
 
-?> 
+        $email_message = "Detalles del formulario de contacto:\n\n";
+        $email_message .= "Nombre: " . $_POST['name'] . "\n";
+        $email_message .= "E-mail: " . $_POST['email-from'] . "\n";
+        $email_message .= "Mensaje: " . $_POST['message'] . "\n\n";
+
+
+        // Ahora se envía el e-mail usando la función mail() de PHP
+        $headers = 'From: '.$email_from."\r\n".
+        'Reply-To: '.$email_from."\r\n" .
+        'X-Mailer: PHP/' . phpversion();
+        @mail($email_to, $email_subject, $email_message, $headers);
+
+        echo "¡El formulario se ha enviado con éxito!";
+    }
+?>
