@@ -436,7 +436,26 @@ html[xmlns] .slides {display: block;}
 	
 	#carousel {display:none;}
 	
+
+/* --- HOME --- */
+
 	.top_slider .slide1 .flex_caption1 .title4 { margin-left:30px; }
+
+	.top_slider .slide1 {
+		height:100%;
+		background-image:url(../images/abogadoV.jpg);
+		background-size:cover;
+		background-attachment:fixed !important;
+	}
+
+/* --- TEAM --- */
+
+/* --- WORK --- */
+
+/* --- NEWS --- */
+
+/* --- CONTACT --- */
+
 }
 
 
