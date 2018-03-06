@@ -929,8 +929,12 @@ ul.project_info li span {color:#979797;}
 	padding-top: 8%;
 }
 
-.hidden-text {
+.hidden-black-text {
 	color: #2a2929;
+}
+
+.hidden-white-text {
+	color: #ecebeb;
 }
 
 .square-black {
