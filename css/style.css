@@ -1912,7 +1912,7 @@ input[type="color"]:focus {
 }
 
 /*--------------------------------------------*/
-/*				MEGA MOBILE
+/*				BIG MOBILE
 /*--------------------------------------------*/
 
 @media (max-width: 767px) {
@@ -2121,6 +2121,7 @@ input[type="color"]:focus {
 
 /* --- HOME --- */
 
+
 /* --- TEAM --- */
 
 	.signature-img {
@@ -2178,10 +2179,19 @@ input[type="color"]:focus {
 }
 
 
+/*--------------------------------------------*/
+/*				SMALL MOBILE
+/*--------------------------------------------*/
 
+@media (max-width: 320px) {
 
+/* --- HOME --- */
 
+	.logo-text {
+		font-size: 12px;
+	}
 
+}
 
 
 
